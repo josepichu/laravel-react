@@ -41,6 +41,11 @@ Set the APP_TITLE in `resources/assets/js/values/index.js`
 APP_TITLE='Your Blog Name'
 ```
 
+## Set app Key
+```
+php artisan key:generate 
+```
+
 ## Run PHP Dev Server
 Either create a local dev url and map the link in webpack.mix.js file or open an other terminal window and copy paste the following command
 
